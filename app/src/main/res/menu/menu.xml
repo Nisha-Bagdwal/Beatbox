@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="About Me"
+        android:id="@+id/itemAbout"/>
+    <item
+        android:title="Change Background"
+        android:id="@+id/itemChange"/>
+    <item
+        android:title="Exit BeatBox"
+        android:id="@+id/itemExit"/>
+</menu>

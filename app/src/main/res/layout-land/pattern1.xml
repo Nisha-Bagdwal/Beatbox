@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framePatt">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageBackground"
+        />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="17"
+                    android:rowCount="16"
+                    android:orientation="horizontal"
+                    android:id="@+id/gridPattern"
+                    android:padding="20dp">
+                </GridLayout>
+            </HorizontalScrollView>
+            </RelativeLayout>
+        </ScrollView>
+    <SlidingDrawer
+        android:id="@+id/slidingD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/handle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Slide Up"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"/>
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.AppCompatButton
+                android:text="Start"
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/bStart"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"/>
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="No Pattern"
+                android:id="@+id/bNoPattern"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"/>
+            <android.support.v7.widget.AppCompatButton
+                android:text="Save Pattern"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bSavePattern"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"/>
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Open Pattern"
+                android:layout_gravity="center"
+                android:id="@+id/bOpenPattern"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </SlidingDrawer>
+</FrameLayout>

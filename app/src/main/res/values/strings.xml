@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Beatbox</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content"
+        name="about">Hello friend, I\'m Nisha Bagdwal-creator of this application The BeatBox, since this is my very first
+
+app and my first attempt towards Android Application Development, hope you like it...:)  \nP.S. Enjoy the BeatBox</string>
+</resources>
