@@ -1,1 +1,2 @@
 # Beatbox
+This application consists of sixteen different beats and you can create your own pattern to play those beats in your desired order. You can save any pattern that you like and that pattern would be saved in a folder named BeatBox in the internal storage of your device and whenever you want to play your saved pattern just open that pattern in the BeatBox and there you go. You can also change the background of the application.
